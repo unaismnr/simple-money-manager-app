@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: false,
       ),
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
       routes: {
         AddTransactionScreen.routeName: (context) =>
